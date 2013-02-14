@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/rails/rails.git
-  revision: f36b80b3e8a1aae9e45af7c82be3917bc6277aa1
+  revision: 9aa96f774754681a59db37878c14560debc2a6bc
   specs:
     actionmailer (4.0.0.beta)
       actionpack (= 4.0.0.beta)
@@ -81,18 +81,19 @@ GEM
     atomic (1.0.1)
     awesome_print (1.1.0)
     bcrypt-ruby (3.0.1)
-    better_errors (0.5.0)
+    better_errors (0.6.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
-    binding_of_caller (0.6.8)
+    binding_of_caller (0.6.9)
+      debug_inspector (>= 0.0.1)
     bootstrap-will_paginate (0.0.9)
       will_paginate
-    brakeman (1.9.1)
+    brakeman (1.9.2)
       erubis (~> 2.6)
       fastercsv (~> 1.5)
       haml (~> 3.0)
       highline (~> 1.6)
-      multi_json (~> 1.3)
+      multi_json (~> 1.2)
       ruby2ruby (~> 2.0)
       ruby_parser (~> 3.1.1)
       sass (~> 3.0)
@@ -108,6 +109,7 @@ GEM
       execjs
     coffee-script-source (1.4.0)
     colored (1.2)
+    debug_inspector (0.0.2)
     devise (1.5.4)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
